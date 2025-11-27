@@ -26,8 +26,8 @@ class Arguments:
         ]
         
         # 奖励设置
-        self.reward_target = 10.0      # 到达目标的奖励
-        self.reward_forbidden = -5.0   # 撞墙或进入禁止区域的惩罚
+        self.reward_target = 1         # 到达目标的奖励
+        self.reward_forbidden = -1.0   # 撞墙或进入禁止区域的惩罚
         self.reward_step = -0.1        # 每步的小惩罚
         
         # 可视化设置

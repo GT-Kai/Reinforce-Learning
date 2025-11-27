@@ -2,7 +2,10 @@
 GridWorld 环境测试脚本
 测试优化后的 GridWorld 功能
 """
-
+from pathlib import Path
+import sys
+project_root = Path("./..")
+sys.path.insert(0, str(project_root)) 
 import numpy as np
 from gridworld import GridWorld
 
